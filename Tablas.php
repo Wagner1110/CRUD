@@ -85,7 +85,9 @@
                                 class="nav-link hidden-sm-down waves-effect waves-dark" href="javascript:void(0)"><i
                                     class="fa fa-search"></i></a>
                             <form class="app-search">
-                                <input type="text" class="form-control" placeholder="Search & enter"> <a
+                                <input type="text" class="form-control" placeholder="Search & enter">
+                               
+                                    <a
                                     class="srh-btn"><i class="fa fa-times"></i></a> </form>
                         </li>
                     </ul>
@@ -97,10 +99,7 @@
                         <!-- Profile -->
                         <!-- ============================================================== -->
                         <li class="nav-item dropdown u-pro">
-                            <a class="nav-link dropdown-toggle waves-effect waves-dark profile-pic" href=""
-                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img
-                                    src="assets/images/users/1.jpg" alt="user" class="" /> <span
-                                    class="hidden-md-down">Mark Sanders &nbsp;</span> </a>
+                    
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown"></ul>
                         </li>
                     </ul>
@@ -120,14 +119,15 @@
                 <nav class="sidebar-nav">
                     <ul id="sidebarnav">
                        
-                        <li> <a class="waves-effect waves-dark" href="pages-profile.html" aria-expanded="false"><i
-                                    class="fa fa-user-circle-o"></i><span class="hide-menu">Usuarios</span></a>
-                        </li>
+                       
                         <li> <a class="waves-effect waves-dark" href="Tablas.php" aria-expanded="false"><i
                                     class="fa fa-table"></i><span class="hide-menu">Tablas</span></a>
                         </li>
                         <li> <a class="waves-effect waves-dark" href="registro.php" aria-expanded="false"><i
                                     class="fa fa-smile-o"></i><span class="hide-menu">Resgistro</span></a>
+                        </li>
+                        <li> <a class="waves-effect waves-dark" href="index.php" aria-expanded="false"><i
+                                    class="fa fa-smile-o"></i><span class="hide-menu">Inicio</span></a>
                         </li>
                       
                     </ul>
@@ -160,10 +160,9 @@
                         </ol>
                     </div>
                     <div class="col-md-7 align-self-center">
-                        <a href="https://www.wrappixel.com/CRUD/adminwrap/"
-                            class="btn waves-effect waves-light btn btn-info pull-right hidden-sm-down text-white"> Upgrade to
-                            Pro</a>
-                    </div>
+                        <a href="Tablas.php"
+                  class="btn waves-effect waves-light btn btn-info pull-right hidden-sm-down text-white"> Buscar Productos</a>
+                </div>
                 </div>
                 <!-- ============================================================== -->
                 <!-- End Bread crumb and right sidebar toggle -->

@@ -11,7 +11,7 @@
     <meta name="description"
         content="AdminWrap Lite is powerful and clean admin dashboard template, inpired from Bootstrap Framework">
     <meta name="robots" content="noindex,nofollow">
-    <title>AdminWrap Lite Template by WrapPixel</title>
+    <title>Admin Wrap Lite Template by WrapPixel</title>
     <link rel="canonical" href="https://www.wrappixel.com/templates/adminwrap-lite/" />
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.png">
@@ -36,7 +36,7 @@
     <div class="preloader">
         <div class="loader">
             <div class="loader__figure"></div>
-            <p class="loader__label">Admin Wrap</p>
+            <p class="loader__label">Productos</p>
         </div>
     </div>
     <!-- ============================================================== -->
@@ -120,7 +120,7 @@
                 <nav class="sidebar-nav">
                     <ul id="sidebarnav">
                        
-                        <li> <a class="waves-effect waves-dark" href="pages-profile.html" aria-expanded="false"><i
+                        <li> <a class="waves-effect waves-dark" href="login.html" aria-expanded="false"><i
                                     class="fa fa-user-circle-o"></i><span class="hide-menu">Usuarios</span></a>
                         </li>
                         <li> <a class="waves-effect waves-dark" href="Tablas.php" aria-expanded="false"><i
@@ -128,6 +128,9 @@
                         </li>
                         <li> <a class="waves-effect waves-dark" href="registro.php" aria-expanded="false"><i
                                     class="fa fa-smile-o"></i><span class="hide-menu">Resgistro</span></a>
+                        </li>
+                        <li> <a class="waves-effect waves-dark" href="buscador.php" aria-expanded="false"><i
+                                    class="fa fa-smile-o"></i><span class="hide-menu">Productos Disponibles</span></a>
                         </li>
                       
                     </ul>
